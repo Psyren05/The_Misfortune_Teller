@@ -4,3 +4,30 @@ body {
     font-family: 'Nunito', sans-serif;
     text-align: center;
    }
+
+   h1 {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin: auto;
+   }
+
+   #misfortune {
+    padding-bottom: 40px;
+    font-size: 18px;
+   }
+
+   .button-container {
+    margin: auto;
+   }
+
+   #misfortune-btn {
+    padding: 10px;
+    border: solid #ffcc00 2px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+   }
+
+   #misfortune-btn:active {
+    transform: translateY(1px);
+   }
